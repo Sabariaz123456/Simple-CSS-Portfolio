@@ -1,0 +1,25 @@
+/* components/Navbar.module.css */
+.Navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .NavbarContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .NavbarContainer a {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .NavbarContainer a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+  }
+  
